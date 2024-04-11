@@ -1,0 +1,79 @@
+// BossHP configuration file generator.
+// Boss Version v23
+// Copyright 2025 Kyle 'Kxnrl' Frankiss.
+// https://github.com/Kxnrl
+
+  // 可用字段:
+  // [Boss (Breakables/Counters)]
+  // display    (string)   -> 显示的名称
+  // hitbox     (string)   -> 打击框
+  // stages     (int)      -> 阶段数
+  // target     (string)   -> 目标名称 (Breakable only)
+  // count      (int)      -> 血条格数 (Breakable only)
+  // iterator   (string)   -> 计数器 (MathCounter only)
+  // backup     (string)   -> 后备计数器 (MathCounter only)
+  // mass       (int)      -> 后备算法参数 (MathCounter only)
+  // counter    (string)   -> 血条计数器 (MathCounter only)
+  // increase   (bool)     -> iterator是OnHitMax模式 (MathCounter only) 
+  // reverse    (bool)     -> counter是OnHitMax模式 (MathCounter only)
+  // [Npc (Monsters)]
+  // display    (string)   -> 显示的名称
+  // identity   (string)   -> UniqueHammerId (同时支持Counter/Breakable)
+
+{
+  "Counters": [
+    {
+      "iterator": "2boss_hp",
+      "hitbox": "2_boss_hitbox",
+      "backup": "2boss_hp_add",
+      "display": "Boss",
+      "counter": "2boss_hp_left"
+    },
+    {
+      "iterator": "ex1_boss_hp",
+      "hitbox": "ex1_boss_hitbox",
+      "backup": "",
+      "display": "X博士"
+    },
+    {
+      "iterator": "ex1_final_boss_hp",
+      "hitbox": "ex1_final_boss_hitbox",
+      "backup": "",
+      "display": "X博士"
+    },
+    {
+      "iterator": "ex2_final_boss_hp",
+      "hitbox": "ex2_final_laser_hitbox",
+      "backup": "",
+      "display": "米诺莉拉"
+    },
+    {
+      "iterator": "ex2_boss_hp",
+      "hitbox": "ex2_boss_hitbox",
+      "backup": "ex2_boss_hp_add",
+      "mass": 100,
+      "display": "米诺莉拉",
+      "counter": "2boss_hp_left"
+    },
+    {
+      "iterator": "3_boss_hp",
+      "hitbox": "3_boss_hitbox",
+      "backup": "3_boss_hp_add",
+      "mass": 100,
+      "display": "Tesla",
+      "counter": "3_boss_hp_left"
+    },
+    {
+      "iterator": "3_final_boss_hp",
+      "hitbox": "3_final_boss_hitbox",
+      "backup": "",
+      "display": "X博士"
+    }
+  ],
+  "Monsters": [
+    {
+      "identity": "2523",
+      "display": "Black"
+    }
+  ]
+}

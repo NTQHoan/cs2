@@ -1,0 +1,67 @@
+// BossHP configuration file generator.
+// Boss Version v23
+// Copyright 2025 Kyle 'Kxnrl' Frankiss.
+// https://github.com/Kxnrl
+
+  // 可用字段:
+  // [Boss (Breakables/Counters)]
+  // display    (string)   -> 显示的名称
+  // hitbox     (string)   -> 打击框
+  // stages     (int)      -> 阶段数
+  // target     (string)   -> 目标名称 (Breakable only)
+  // count      (int)      -> 血条格数 (Breakable only)
+  // iterator   (string)   -> 计数器 (MathCounter only)
+  // backup     (string)   -> 后备计数器 (MathCounter only)
+  // mass       (int)      -> 后备算法参数 (MathCounter only)
+  // counter    (string)   -> 血条计数器 (MathCounter only)
+  // increase   (bool)     -> iterator是OnHitMax模式 (MathCounter only) 
+  // reverse    (bool)     -> counter是OnHitMax模式 (MathCounter only)
+  // [Npc (Monsters)]
+  // display    (string)   -> 显示的名称
+  // identity   (string)   -> UniqueHammerId (同时支持Counter/Breakable)
+
+{
+  "Counters": [
+    {
+      "iterator": "Ehe_Guardian_HP",
+      "hitbox": "Ehe_Guardian_Body",
+      "display": "小学生"
+    },
+    {
+      "iterator": "Airship_Ending_Boss_Health",
+      "hitbox": "Airship_Ending_Boss_Physbox",
+      "display": "轮回王"
+    },
+    {
+      "iterator": "Gabranth_HP",
+      "backup": "Gabranth_HPInit",
+      "counter": "Gabranth_HPBar",
+      "reverse": true,
+      "hitbox": "Guard_1_Physbox",
+      "display": "小学生"
+    },
+    {
+      "iterator": "Ehe_Dragon_HP",
+      "hitbox": "Ehe_Dragon_Body",
+      "display": "龙"
+    },
+    {
+      "iterator": "Boss_Health",
+      "backup": "Boss_Health_Init",
+      "counter": "Boss_Overlay_Counter",
+      "reverse": true,
+      "hitbox": "Boss_Armor_Body",
+      "display": "龙"
+    }
+  ],
+  "Monsters": [
+    {
+      "identity": "697",
+      "display": "战斗卫兵"
+    },
+    {
+      "identity": "696",
+      "display": "治疗卫兵"
+    }
+  ]
+}

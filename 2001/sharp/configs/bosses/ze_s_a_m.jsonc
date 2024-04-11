@@ -1,0 +1,88 @@
+// BossHP configuration file generator.
+// Boss Version v23
+// Copyright 2025 Kyle 'Kxnrl' Frankiss.
+// https://github.com/Kxnrl
+
+  // 可用字段:
+  // [Boss (Breakables/Counters)]
+  // display    (string)   -> 显示的名称
+  // hitbox     (string)   -> 打击框
+  // stages     (int)      -> 阶段数
+  // target     (string)   -> 目标名称 (Breakable only)
+  // count      (int)      -> 血条格数 (Breakable only)
+  // iterator   (string)   -> 计数器 (MathCounter only)
+  // backup     (string)   -> 后备计数器 (MathCounter only)
+  // mass       (int)      -> 后备算法参数 (MathCounter only)
+  // counter    (string)   -> 血条计数器 (MathCounter only)
+  // increase   (bool)     -> iterator是OnHitMax模式 (MathCounter only) 
+  // reverse    (bool)     -> counter是OnHitMax模式 (MathCounter only)
+  // [Npc (Monsters)]
+  // display    (string)   -> 显示的名称
+  // identity   (string)   -> UniqueHammerId (同时支持Counter/Breakable)
+
+{
+  "Counters": [
+    {
+      "iterator": "Troll_Hp",
+      "counter": "Troll_Hp_Counter",
+      "backup": "Troll_Hp_Get",
+      "reverse": true,
+      "hitbox": "Troll_Box",
+      "display": "巨魔"
+    },
+    {
+      "iterator": "S2_Boss_Hp",
+      "counter": "S2_Boss_Hp_Counter",
+      "backup": "S2_Boss_Hp_Get",
+      "reverse": true,
+      "hitbox": "S2_Boss_Box",
+      "display": "水晶"
+    },
+    {
+      "iterator": "Castle_Hp",
+      "counter": "Castle_Hp_Counter",
+      "backup": "Castle_Hp_Get",
+      "reverse": true,
+      "hitbox": "Castle_Hitbox",
+      "display": "轮回王"
+    },
+    {
+      "iterator": "Dr_Hp",
+      "counter": "Dr_Hp_Counter",
+      "backup": "Dr_Hp_Get",
+      "reverse": true,
+      "hitbox": "Dr_Hitbox",
+      "display": "冰龙"
+    },
+    {
+      "iterator": "Bal_Hp",
+      "counter": "Bal_Hp_Counter",
+      "backup": "Bal_Hp_Get",
+      "reverse": true,
+      "hitbox": "Bal_Hitbox",
+      "display": "炎魔"
+    }
+  ],
+  "Monsters": [
+    {
+      "identity": "10270",
+      "display": "守卫①号"
+    },
+    {
+      "identity": "10653",
+      "display": "守卫①号"
+    },
+    {
+      "identity": "9816",
+      "display": "守卫①号"
+    },
+    {
+      "identity": "9817",
+      "display": "守卫①号"
+    },
+    {
+      "identity": "8229",
+      "display": "拦路水晶"
+    }
+  ]
+}

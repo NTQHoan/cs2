@@ -1,0 +1,64 @@
+// BossHP configuration file generator.
+// Boss Version v23
+// Copyright 2025 Kyle 'Kxnrl' Frankiss.
+// https://github.com/Kxnrl
+
+  // 可用字段:
+  // [Boss (Breakables/Counters)]
+  // display    (string)   -> 显示的名称
+  // hitbox     (string)   -> 打击框
+  // stages     (int)      -> 阶段数
+  // target     (string)   -> 目标名称 (Breakable only)
+  // count      (int)      -> 血条格数 (Breakable only)
+  // iterator   (string)   -> 计数器 (MathCounter only)
+  // backup     (string)   -> 后备计数器 (MathCounter only)
+  // mass       (int)      -> 后备算法参数 (MathCounter only)
+  // counter    (string)   -> 血条计数器 (MathCounter only)
+  // increase   (bool)     -> iterator是OnHitMax模式 (MathCounter only) 
+  // reverse    (bool)     -> counter是OnHitMax模式 (MathCounter only)
+  // [Npc (Monsters)]
+  // display    (string)   -> 显示的名称
+  // identity   (string)   -> UniqueHammerId (同时支持Counter/Breakable)
+
+{
+  "Counters": [
+    {
+      "iterator": "lv4_boss_counter_small",
+      "mass": 40,
+      "counter": "lv4_boss_counter_big",
+      "hitbox": "lv4_boss_hitbox",
+      "display": "安兹·乌尔·恭"
+    },
+    {
+      "iterator": "laser_counter_c",
+      "hitbox": "laser_hitbox_c",
+      "display": "LaserFinal"
+    },
+    {
+      "iterator": "lv3_boss_counter_small",
+      "mass": 60,
+      "counter": "lv3_boss_counter_big",
+      "hitbox": "lv3_boss_hitbox",
+      "display": "卡冈都亚"
+    },
+    {
+      "iterator": "laser_counter",
+      "hitbox": "laser_hitbox",
+      "display": "Laser"
+    },
+    {
+      "iterator": "lv2_boss_counter_small",
+      "mass": 40,
+      "counter": "lv2_boss_counter_big",
+      "hitbox": "lv2_boss_hitbox",
+      "display": "白金铠甲"
+    },
+    {
+      "iterator": "lv1_boss_counter_small",
+      "mass": 60,
+      "counter": "lv1_boss_counter_big",
+      "hitbox": "lv1_boss_hitbox",
+      "display": "仓助"
+    }
+  ]
+}

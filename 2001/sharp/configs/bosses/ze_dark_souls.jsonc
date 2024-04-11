@@ -1,0 +1,84 @@
+// BossHP configuration file generator.
+// Boss Version v23
+// Copyright 2025 Kyle 'Kxnrl' Frankiss.
+// https://github.com/Kxnrl
+
+  // 可用字段:
+  // [Boss (Breakables/Counters)]
+  // display    (string)   -> 显示的名称
+  // hitbox     (string)   -> 打击框
+  // stages     (int)      -> 阶段数
+  // target     (string)   -> 目标名称 (Breakable only)
+  // count      (int)      -> 血条格数 (Breakable only)
+  // iterator   (string)   -> 计数器 (MathCounter only)
+  // backup     (string)   -> 后备计数器 (MathCounter only)
+  // mass       (int)      -> 后备算法参数 (MathCounter only)
+  // counter    (string)   -> 血条计数器 (MathCounter only)
+  // increase   (bool)     -> iterator是OnHitMax模式 (MathCounter only) 
+  // reverse    (bool)     -> counter是OnHitMax模式 (MathCounter only)
+  // [Npc (Monsters)]
+  // display    (string)   -> 显示的名称
+  // identity   (string)   -> UniqueHammerId (同时支持Counter/Breakable)
+
+{
+  "Counters": [
+    {
+      "iterator": "Clown_Champion_Health",
+      "hitbox": "Clown_Champion_Hitbox",
+      "display": "切斯特"
+    },
+    {
+      "iterator": "IronGolemHp",
+      "hitbox": "Golem_Phys_Body",
+      "display": "钢铁巨偶"
+    },
+    {
+      "iterator": "Asylum_Demon_Health_Counter",
+      "hitbox": "Asylum_Demon_Hitbox",
+      "display": "不死院恶魔"
+    },
+    {
+      "iterator": "Broodmother_Health_Counter",
+      "hitbox": "Broodmother_Hitbox",
+      "display": "混沌魔女克拉格"
+    },
+    {
+      "iterator": "Thrower_Health",
+      "hitbox": "Thrower_Hitbox",
+      "display": "巨人投手"
+    },
+    {
+      "iterator": "Gwyn_Health_Counter",
+      "hitbox": "Gwyn_Hitbox",
+      "display": "乌薪王葛温"
+    },
+    {
+      "iterator": "Sirwolf_Health_Counter",
+      "hitbox": "Sirwolf_Hitbox",
+      "display": "灰色大狼希夫"
+    },
+    {
+      "iterator": "KnightCaller_Health",
+      "hitbox": "KnightCaller_Hitbox",
+      "display": "巨人法官"
+    }
+  ],
+  "Monsters": [
+    {
+      "identity": "143386",
+      "display": "黑骑士"
+    },
+    {
+      "identity": "143390",
+      "display": "野猪"
+    },
+    {
+      "identity": "145197",
+      "display": "软泥怪"
+    },
+    {
+      "identity": "143384",
+      "display": "黑骑士"
+    }
+  ]
+}

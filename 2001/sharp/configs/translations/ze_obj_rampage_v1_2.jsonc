@@ -1,0 +1,234 @@
+// Console SayText i18n file generator.
+// i18n Version v21
+// Copyright 2025 Kyle 'Kxnrl' Frankiss.
+// https://github.com/Kxnrl
+
+  // 可用字段:
+  // blocked    (bool) -> 屏蔽本句输出
+  // clearText  (bool) -> 清除所有HUD文本
+  // clearTimer (bool) -> 清除所有倒计时
+  // countdown  (int)  -> 添加特殊的独立的倒计时
+
+{
+  "We are one in the same": {
+    "translation": "We are one in the same"
+  },
+  "It takes control and drags me into nowhere": {
+    "translation": "It takes control and drags me into nowhere"
+  },
+  "Take me high and I'll sing": {
+    "translation": "Take me high and I'll sing"
+  },
+  "My demons": {
+    "translation": "My demons"
+  },
+  "Save me if I become": {
+    "translation": "Save me if I become"
+  },
+  "Oh you take all of the pain away (away, away)": {
+    "translation": "Oh you take all of the pain away (away, away)"
+  },
+  "Oh you make everything okay (okay, okay)": {
+    "translation": "Oh you make everything okay (okay, okay)"
+  },
+  "I can feel you out there": {
+    "translation": "I can feel you out there"
+  },
+  "I know you're watching": {
+    "translation": "I know you're watching"
+  },
+  "I need your help, I can't fight this forever": {
+    "translation": "I need your help, I can't fight this forever"
+  },
+  "I cannot stop this sickness taking over": {
+    "translation": "I cannot stop this sickness taking over"
+  },
+  "Oh you take all of the pain away": {
+    "translation": "Oh you take all of the pain away"
+  },
+  "Take me over the walls below": {
+    "translation": "Take me over the walls below"
+  },
+  "Fly forever": {
+    "translation": "Fly forever"
+  },
+  "Don't let me go": {
+    "translation": "Don't let me go"
+  },
+  "I need a savior to heal my pain": {
+    "translation": "I need a savior to heal my pain"
+  },
+  "When I become my worst enemy": {
+    "translation": "When I become my worst enemy"
+  },
+  "The enemy": {
+    "translation": "The enemy"
+  },
+  "Oh you make everything okay": {
+    "translation": "Oh you make everything okay"
+  },
+  "The door opening in 15s": {
+    "translation": "15秒后开门"
+  },
+  "Welcome on Objective Rampage": {
+    "translation": "欢迎来到 行动代号:横冲直撞"
+  },
+  "Good Luck !": {
+    "translation": "玩得开心 !"
+  },
+  "Special thanks to Zombieden for testing and people who guiding me on anything": {
+    "translation": "感谢ZED社区的测试和帮助过我的人"
+  },
+  "Some of the zombie cage has placed portals to teleport between each zombie cage": {
+    "translation": "这张地图的某些东西可以让僵尸随意穿梭"
+  },
+  "zombies, take advantage of it!": {
+    "translation": "僵尸们,好好利用它们大开杀戒吧!"
+  },
+  "Gas was turned off..": {
+    "translation": "阀门已被关闭.."
+  },
+  "Find a way to turn off the gas": {
+    "translation": "想办法关闭阀门"
+  },
+  "BLAST DOORS <<< 30 >>>": {
+    "translation": "<<< 30 >>>",
+    "countdown": 30
+  },
+  "BLAST DOORS <<< 25 >>>": {
+    "translation": "门开还有<<< 25 >>>",
+    "blocked": true
+  },
+  "BLAST DOORS <<< 20 >>>": {
+    "translation": "门开还有<<< 20 >>>",
+    "blocked": true
+  },
+  "BLAST DOORS <<< 15 >>>": {
+    "translation": "门开还有<<< 15 >>>",
+    "blocked": true
+  },
+  "BLAST DOORS <<< 10 >>>": {
+    "translation": "门开还有<<< 10 >>>",
+    "blocked": true
+  },
+  "BLAST DOORS <<< 05 >>>": {
+    "translation": "门开还有<<< 05 >>>",
+    "blocked": true
+  },
+  "BLAST DOORS <<< 00 >>>": {
+    "translation": "门开还有<<< 00 >>>",
+    "blocked": true
+  },
+  "Get in and keep holding until the door is closed!": {
+    "translation": "进去!守到门关!进去!守到门关!"
+  },
+  "Objective Rampage": {
+    "translation": "行动代号:横冲直撞"
+  },
+  "Loading virus ...": {
+    "translation": "正在载入病毒..."
+  },
+  "RUN": {
+    "translation": "撤退"
+  },
+  "Defend until virus get uploaded": {
+    "translation": "正在上传病毒,守住兄弟们"
+  },
+  "The virus is uploaded ! Defend until complete system corruption": {
+    "translation": "病毒已上传,防守至系统完全瘫痪"
+  },
+  "Prepare..": {
+    "translation": "准备好..."
+  },
+  "OMG everything is now fucked up, the laser was enabled !": {
+    "translation": "我糙了,玩完了兄弟们,激光器启动了"
+  },
+  "STAY AWAY FROM THE BEAM !!!": {
+    "translation": "远离控制台!!远离控制台!!!"
+  },
+  "DOOR OPEN <<< 30 >>>": {
+    "translation": "<<< 30 >>>",
+    "countdown": 30
+  },
+  "DOOR OPEN <<< 25 >>>": {
+    "translation": "门开还有<<< 25 >>>",
+    "blocked": true
+  },
+  "DOOR OPEN <<< 20 >>>": {
+    "translation": "门开还有<<< 20 >>>",
+    "blocked": true
+  },
+  "DOOR OPEN <<< 15 >>>": {
+    "translation": "门开还有<<< 15 >>>",
+    "blocked": true
+  },
+  "DOOR OPEN <<< 10 >>>": {
+    "translation": "门开还有<<< 10 >>>",
+    "blocked": true
+  },
+  "DOOR OPEN <<< 05 >>>": {
+    "translation": "门开还有<<< 05 >>>",
+    "blocked": true
+  },
+  "DOOR OPEN <<< 00 >>>": {
+    "translation": "门开还有<<< 00 >>>",
+    "blocked": true
+  },
+  "Power will be cut off in a few moments": {
+    "translation": "电源马上关闭,守住"
+  },
+  "Power is OFF": {
+    "translation": "电源已关闭"
+  },
+  "GET ON THE ELEVATOR": {
+    "translation": "上电梯!!别刷了!!快上电梯!!"
+  },
+  "Find a way to get into the room!": {
+    "translation": "想办法进入房间!"
+  },
+  "Watch out!": {
+    "translation": "媽的,电梯坠落了!小心!!"
+  },
+  "Place the c4 to break the wall!": {
+    "translation": "放置炸弹打破墙壁!"
+  },
+  "C4 has been planted": {
+    "translation": "c4将在90秒后引爆",
+    "countdown": 90
+  },
+  "DEFEND 40 SECONDS": {
+    "translation": "防守40秒",
+    "blocked": true
+  },
+  "DEFEND 70 SECONDS": {
+    "translation": "防守70秒",
+    "blocked": true
+  },
+  "Rampage Level": {
+    "translation": "横冲直撞"
+  },
+  "GET ON THE HELICOPTER": {
+    "translation": "快上直升机!!救援来了!!!快上直升机!!!"
+  },
+  "To be continute...": {
+    "translation": "未完待续....."
+  },
+  "Ported by TuPu": {
+    "translation": "地图提供:Tupu"
+  },
+  "Map by Trazix": {
+    "translation": "地图作者:Trazix地图汉化:余清茗染@Fys"
+  },
+  "The doors opening in 30s": {
+    "translation": "30秒后开门"
+  },
+  "Stay inside the room until the zombies outside get teleport!": {
+    "translation": "待在房间里直到外面的僵尸传送"
+  },
+  "Climb up the boxes after activated the detonator !": {
+    "translation": "激活起爆器后爬上箱子"
+  },
+  "Keep holding until zombies get teleport!": {
+    "translation": "守住直到僵尸传送"
+  }
+}

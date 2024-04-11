@@ -1,0 +1,61 @@
+// BossHP configuration file generator.
+// Boss Version v23
+// Copyright 2025 Kyle 'Kxnrl' Frankiss.
+// https://github.com/Kxnrl
+
+  // 可用字段:
+  // [Boss (Breakables/Counters)]
+  // display    (string)   -> 显示的名称
+  // hitbox     (string)   -> 打击框
+  // stages     (int)      -> 阶段数
+  // target     (string)   -> 目标名称 (Breakable only)
+  // count      (int)      -> 血条格数 (Breakable only)
+  // iterator   (string)   -> 计数器 (MathCounter only)
+  // backup     (string)   -> 后备计数器 (MathCounter only)
+  // mass       (int)      -> 后备算法参数 (MathCounter only)
+  // counter    (string)   -> 血条计数器 (MathCounter only)
+  // increase   (bool)     -> iterator是OnHitMax模式 (MathCounter only) 
+  // reverse    (bool)     -> counter是OnHitMax模式 (MathCounter only)
+  // [Npc (Monsters)]
+  // display    (string)   -> 显示的名称
+  // identity   (string)   -> UniqueHammerId (同时支持Counter/Breakable)
+
+{
+  "Counters": [
+    {
+      "iterator": "boss_health_base",
+      "backup": "boss_health_backup",
+      "counter": "boss1_hp_iterations",
+      "hitbox": "naraka_hitbox",
+      "display": "Naraka"
+    }
+  ],
+  "Breakables": [
+    {
+      "target": "moray_breakable",
+      "display": "魔鳗",
+    },
+    {
+      "target": "kamek_health",
+      "display": "卡美克",
+    },
+    {
+      "target": "whomp_king_breakable",
+      "display": "石像怪",
+    },
+    {
+      "target": "bomp_breakable",
+      "display": "炸弹王",
+    }
+  ],
+  "Monsters": [
+    {
+      "identity": "5337",
+      "display": "锁1"
+    },
+    {
+      "identity": "5339",
+      "display": "锁2"
+    }
+  ]
+}

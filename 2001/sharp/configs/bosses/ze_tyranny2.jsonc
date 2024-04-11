@@ -1,0 +1,77 @@
+// BossHP configuration file generator.
+// Boss Version v23
+// Copyright 2025 Kyle 'Kxnrl' Frankiss.
+// https://github.com/Kxnrl
+
+  // 可用字段:
+  // [Boss (Breakables/Counters)]
+  // display    (string)   -> 显示的名称
+  // hitbox     (string)   -> 打击框
+  // stages     (int)      -> 阶段数
+  // target     (string)   -> 目标名称 (Breakable only)
+  // count      (int)      -> 血条格数 (Breakable only)
+  // iterator   (string)   -> 计数器 (MathCounter only)
+  // backup     (string)   -> 后备计数器 (MathCounter only)
+  // mass       (int)      -> 后备算法参数 (MathCounter only)
+  // counter    (string)   -> 血条计数器 (MathCounter only)
+  // increase   (bool)     -> iterator是OnHitMax模式 (MathCounter only) 
+  // reverse    (bool)     -> counter是OnHitMax模式 (MathCounter only)
+  // [Npc (Monsters)]
+  // display    (string)   -> 显示的名称
+  // identity   (string)   -> UniqueHammerId (同时支持Counter/Breakable)
+
+{
+  "Counters": [
+    {
+      "iterator": "bosshp1",
+      "backup": "bosshp2",
+      "counter": "bosshp3",
+      "stages": 5,
+      "display": "BOSS"
+    },
+    {
+      "identity": "7477",
+      "iterator": "Boss_Health_snake",
+      "backup": "Boss_HealthBackup_snake",
+      "counter": "Boss_HealthCount_snake",
+      "hitbox": "s3_snake_hitbox",
+      "display": "无敌蟒蛇大王"
+    },
+    {
+      "identity": "4748",
+      "iterator": "s2_snake_counter",
+      "hitbox": "s2_snake_shade_unlock",
+      "display": "水蛇"
+    }
+  ],
+  "Monsters": [
+    {
+      "identity": "12843",
+      "display": "左侧雕像彩蛋"
+    },
+    {
+      "identity": "12845",
+      "display": "中间雕像彩蛋"
+    },
+    {
+      "identity": "12847",
+      "display": "右侧雕像彩蛋"
+    },
+    {
+      "identity": "8343",
+      "display": "上层木板"
+    },
+    {
+      "identity": "8341",
+      "display": "下层木板"
+    },
+    {
+      "identity": "9567",
+      "display": "门神龙(hitbox)"
+    },
+    {
+      "identity": "9399",
+      "display": "暗黑破坏神(hitbox)"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+// Console SayText i18n file generator.
+// i18n Version v21
+// Copyright 2025 Kyle 'Kxnrl' Frankiss.
+// https://github.com/Kxnrl
+
+  // 可用字段:
+  // blocked    (bool) -> 屏蔽本句输出
+  // clearText  (bool) -> 清除所有HUD文本
+  // clearTimer (bool) -> 清除所有倒计时
+  // countdown  (int)  -> 添加特殊的独立的倒计时
+
+{
+  "<< Factory Power is Back, Gate Opening Soon. >>": {
+    "translation": "电力恢复 门马上开"
+  },
+  "<< Factory Gate Is Open >>": {
+    "translation": "工厂门开了"
+  },
+  "<< Emergency Power Activating... >>": {
+    "translation": "应急电源启动中"
+  },
+  "<< Emergency Power Activated. Doors Opening Soon... >>": {
+    "translation": "应急电源已启动 门马上开"
+  },
+  "<< Doors Open. >>": {
+    "translation": "门开了"
+  },
+  "<< Factory Doors Opening Soon, Keep Holding. >>": {
+    "translation": "工厂门马上开"
+  },
+  "<< Factory Door Is Open. >>": {
+    "translation": "工厂门已开"
+  },
+  "<< Right Door Opening, Fall Back. >>": {
+    "translation": "右侧门开了"
+  },
+  "<< Zombie Teleport Soon... >>": {
+    "translation": "僵尸马上传送"
+  },
+  "CELESTIAL BODY: 41 Experimentation": {
+    "translation": "天体:41号实验区"
+  },
+  "POPULATION: Abandoned": {
+    "translation": "人口状态:已废弃"
+  },
+  "CONDITIONS: Arid. Thick haze, worsened by industrial artifacts.": {
+    "translation": "环境条件:干旱 浓雾"
+  },
+  "FAUNA: Dominated by a few species.": {
+    "translation": "动物群:以少数物种为主"
+  },
+  "Map by Lacrimossa": {
+    "translation": "地图作者:Lacrimossa 汉化:茜茜"
+  },
+  "<< Scraps Collected >>": {
+    "translation": "已收集废料"
+  },
+  "<< Doors Opening Soon... >>": {
+    "translation": "门马上开"
+  },
+  "<< Doors Open >>": {
+    "translation": "门开了"
+  },
+  "<< Doors Are Locked, Need To Find Keys. >>": {
+    "translation": "门锁了 寻找钥匙"
+  },
+  "<< Emergency Power is Not Enough For North Factory Gate. >>": {
+    "translation": "应急电力不足以北厂门"
+  },
+  "<< Activate Other 3 Power Units. >>": {
+    "translation": "激活三组发电"
+  },
+  "<< We Found Fire Exit!, Keep Holding, It Will Open Soon. >>": {
+    "translation": "发现出口"
+  },
+  "<< Fire Exit Is Open! Fall Back! >>": {
+    "translation": "出口开了"
+  },
+  "<< Almost There, Door Opening Soon.. >>": {
+    "translation": "门马上开"
+  },
+  "<< Collect The Scraps. >>": {
+    "translation": "收集废料"
+  },
+  "<< Ship Is Leaving In 50 Seconds! >>": {
+    "translation": "飞船50秒离开"
+  },
+  "<< Ship Is Leaving... >>": {
+    "translation": "飞船离开了"
+  },
+  "<< Zombie Detected Inside Ship. Mission Failed. >>": {
+    "translation": "飞船进入僵尸 你们被炒鱿鱼了"
+  },
+  "<< Hold A Bit. Door Opening Soon. >>": {
+    "translation": "门马上开"
+  },
+  "<< Zombie Teleport Soon... >": {
+    "translation": "僵尸马上传送"
+  },
+  "<< Keys Found, Factory Doors Opening Soon. >>": {
+    "translation": "已找到钥匙 工厂门马上开"
+  },
+  "<< Factory Doors Opened. >>": {
+    "translation": "工厂门已开"
+  },
+  "<< Zombies In Shortcut. >>": {
+    "translation": "捷径有僵尸"
+  },
+  "<< Zombies Are Inside Building, Zombies Opening Shortcuts. >>": {
+    "translation": "僵尸进入建筑 正在开启捷径"
+  },
+  "<< WARMUP >>": {
+    "translation": "热身"
+  }
+}

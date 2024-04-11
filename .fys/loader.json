@@ -1,0 +1,28 @@
+{
+  "configs": [
+    "2001/csgo/cfg/map-configs",
+    "2004/csgo/cfg/map-configs"
+  ],
+  "round_reward": [
+    "2001/sharp/configs/rewards"
+  ],
+  "boss": [
+    "2001/sharp/configs/bosses"
+  ],
+  "translations": [
+    "2001/sharp/configs/translations",
+    "2004/sharp/configs/translations"
+  ],
+  "map_data": [
+    "2001/sharp/configs/maps.json",
+    "2002/sharp/configs/maps.json",
+    "2004/sharp/configs/maps.json"
+  ],
+  "button": [
+    "2004/sharp/configs/games"
+  ],
+  "plain": [
+    "2001/sharp/configs/mappers.json",
+    "2002/sharp/configs/weapons"
+  ]
+}

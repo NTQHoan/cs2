@@ -1,0 +1,36 @@
+// Console SayText i18n file generator.
+// i18n Version v21
+// Copyright 2025 Kyle 'Kxnrl' Frankiss.
+// https://github.com/Kxnrl
+
+  // 可用字段:
+  // blocked    (bool) -> 屏蔽本句输出
+  // clearText  (bool) -> 清除所有HUD文本
+  // clearTimer (bool) -> 清除所有倒计时
+  // countdown  (int)  -> 添加特殊的独立的倒计时
+
+{
+  "let's start.": {
+    "translation": "let's start.",
+    "blocked": true
+  },
+  "author diverse.": {
+    "translation": "author diverse.",
+    "blocked": true
+  },
+  "welcome to the strange cemetry": {
+    "translation": "欢迎游玩 墓园惊魂"
+  },
+  "explosion in 60s": {
+    "translation": "60秒后爆炸",
+    "countdown": 60
+  },
+  "door open in 60s": {
+    "translation": "60秒后开门",
+    "countdown": 60
+  },
+  "door opened in 60s.": {
+    "translation": "60秒后开门",
+    "countdown": 60
+  }
+}

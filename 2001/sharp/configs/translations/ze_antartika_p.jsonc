@@ -1,0 +1,289 @@
+// Console SayText i18n file generator.
+// i18n Version v21
+// Copyright 2025 Kyle 'Kxnrl' Frankiss.
+// https://github.com/Kxnrl
+
+  // 可用字段:
+  // blocked    (bool) -> 屏蔽本句输出
+  // clearText  (bool) -> 清除所有HUD文本
+  // clearTimer (bool) -> 清除所有倒计时
+  // countdown  (int)  -> 添加特殊的独立的倒计时
+
+{
+  "** GET ON! THE ELEVATOR IS ABOUT TO LEAVE! **": {
+    "translation": "**快上电梯!电梯就要离开了!**"
+  },
+  "** Something in this hall is making the field detector go crazy! **": {
+    "translation": "**大厅里有什么东西使磁场探测器失控了!**"
+  },
+  "** They seem to be using the ruins for something - they must be stopped. **": {
+    "translation": "**他们似乎在利用废墟做些什么-必须阻止他们.**"
+  },
+  "** This path should lead us to one of the several supply warehouses... **": {
+    "translation": "**这条路应该能把我们引向几个供应仓库中的一个...**"
+  },
+  "** We've reached the southwest dock... **": {
+    "translation": "**我们已经到达了西南码头...**"
+  },
+  "** We must find our way into the facility. **": {
+    "translation": "**我们必须找到进入工厂的路.**"
+  },
+  "** Chapter I: Ascension **": {
+    "translation": "**第一章:飞升**"
+  },
+  "** RESIST! We need to access the main complex by unlocking this door! **": {
+    "translation": "**守住!我们需要打开这扇门才能进入主建筑群 **"
+  },
+  "** We're almost there! Don't let anything through! **": {
+    "translation": "**我们快到了,防守!**"
+  },
+  "** FALL BACK! It's about to open! **": {
+    "translation": "**是时候撤离了!**"
+  },
+  "** We're nearing the neuralgic center of the complex... **": {
+    "translation": "**我们正在接近复杂的控制中心...**"
+  },
+  "** Hold until we are able to open this door! **": {
+    "translation": "**撑一会,直到我们能够打开这扇门!**"
+  },
+  "** This button should unlock the doors and let us through... **": {
+    "translation": "**这个按钮可以打开门,让我们通过...**"
+  },
+  "** Resist while we wait for the doors to open! **": {
+    "translation": "**在门打开之前守住这里!**"
+  },
+  "** We'll need to reach one of the gas deposits to blow it up and delay their plans... **": {
+    "translation": "**我们需要炸毁这个地方,或许能拖延他们的计划...**"
+  },
+  "** Look at that! There is enough weaponry to start a massive offensive... **": {
+    "translation": "**看那边!有很多武器.能发起大规模的战争...**"
+  },
+  "** According to our information we should be nearing a maintenance zone... **": {
+    "translation": "**根据我们的信息来看, 我们应该正在接近维修区...**"
+  },
+  "** The maintenance elevator should be enough to access the upper levels. **": {
+    "translation": "**电梯应该可以进入上一层.**"
+  },
+  "** GET GOING! We need to advance! **": {
+    "translation": "**开始行动!我们需要推进!**"
+  },
+  "** Call the elevator! We'll need to resist right here while it's coming... **": {
+    "translation": "**叫电梯!当它来临时,我们需要在这里守住...**"
+  },
+  "** The elevator is coming! RESIST! **": {
+    "translation": "**电梯来了!守住!**"
+  },
+  "** Resist! This door shall take us to one of the middle areas! **": {
+    "translation": "**守住!通过这扇门我们可以到达中心区域!**"
+  },
+  "** Keep it up! It's about to open! **": {
+    "translation": "**防守,前方区域开放!**"
+  },
+  "** HOLD THEM RIGHT HERE! We need to unlock this door! **": {
+    "translation": "**把它们放在这里!我们需要打开这扇门!**"
+  },
+  "** GET CLOSE! We're about to breach in! **": {
+    "translation": "**撤退!**"
+  },
+  "** We need to find a way to make those tanks blow up! **": {
+    "translation": "** 我们需要找到一种方法来炸毁这些坦克! **"
+  },
+  "** Perhaps we can fiddle with the preasure using the control pannels? **": {
+    "translation": "**也许我们可以通过控制压力?**"
+  },
+  "** We did it! The pressure is increasing at exponential rates! **": {
+    "translation": "**我们成功了!压力正在以指数级的速度增加!**"
+  },
+  "** Hold until we open the doors! We need a way out! **": {
+    "translation": "**守住, 直到我们打开大门!**"
+  },
+  "** Our information indicates there should be a small cargo elevator close to our position... **": {
+    "translation": "**根据仪表显示来看,在我们的位置附近应该有一部小型货梯...**"
+  },
+  "** This is our way out! Defend the elevator until it leaves! **": {
+    "translation": "**守住电梯, 直到电梯离开!**"
+  },
+  "** The sabotage mission has been fulfilled. **": {
+    "translation": "**破坏任务已经完成.**"
+  },
+  "** We need to escape from the facility... **": {
+    "translation": "** 我们需要逃离该设施... **"
+  },
+  "** Chapter II: A touch of heaven **": {
+    "translation": "**第二章:天国之光**"
+  },
+  "** Resist! These security doors are sturdy - they'll take a bit to unlock! **": {
+    "translation": "**坚持住,打开这道坚固的安全门需要一点时间!**"
+  },
+  "** Keep it up! We're almost there. **": {
+    "translation": "**防守,目的地离我们很近.**"
+  },
+  "** Our reports indicate some sort of archeologic research takes place here... **": {
+    "translation": "**我们的报告显示这里曾经进行了某种考古学研究...**"
+  },
+  "** Hold! We need to unlock the metal gates and then we'll access the caves. **": {
+    "translation": "**防守,等待金属门解锁进入洞穴.**"
+  },
+  "** Almost there! Keep it up! **": {
+    "translation": "**快到了!坚持住!**"
+  },
+  "** Some kind of electromagnetic radiation is emitted by those cristals... **": {
+    "translation": "**某种电磁辐射是由那些晶体释放的...**"
+  },
+  "** They might be using those ruins and what they contain to develop some kind of new weapon. **": {
+    "translation": "**他们可能正在利用这些废墟和它们所包含的东西来开发某种新武器.**"
+  },
+  "** DEFEND! We need to find a way out - we are trapped! **": {
+    "translation": "** 防守!我们需要找到一条出路-我们被困住了! **"
+  },
+  "** Some of these plates might open... Keep holding! **": {
+    "translation": "**这些板子中的一个可能会打开...守住!**"
+  },
+  "** This one seems to move... GO! **": {
+    "translation": "**这个好像动了...快走!**"
+  },
+  "** Keep going! We should soon reach the surface and see the iced fields of Antartika... **": {
+    "translation": "**继续前进!我们很快就能达到地面, 看到南极洲的冰原...**"
+  },
+  "** Hold the bridges! We need to open this door! **": {
+    "translation": "**守住桥!我们需要打开这扇门!**"
+  },
+  "** RESIST! There's still a bit to go! **": {
+    "translation": "**守住!快要到了!**"
+  },
+  "** ONE LAST EFFORT! HOLD IT!!! **": {
+    "translation": "**最后的机会!把握好!!!**"
+  },
+  "** What a harmonic view! It surely makes you feel as nothing but a clumsy dustmote in the universe... **": {
+    "translation": "**多和谐的景色啊!它无疑让你觉得自己只是宇宙中一颗笨拙的尘埃...**"
+  },
+  "** Hold the vent! We will move out of this area soon... **": {
+    "translation": "**守住通风口!我们很快就会离开这个地方...**"
+  },
+  "** DAMN! The door! HOLD IT! **": {
+    "translation": "**该死的!有道门!守住!**"
+  },
+  "** We can see the complex below and the sea... **": {
+    "translation": "**我们可以看到下面的建筑群和大海...**"
+  },
+  "** We need to hold! We'll place charges on this bridge for it to blow up! **": {
+    "translation": "**防守,我们将会对这座桥进行定点爆破!**"
+  },
+  "** The bomb is being planted! Don't let them past the middle of the bridge! *": {
+    "translation": "**定点爆破已开始,防守这座桥!*"
+  },
+  "** Cover all entrances! We're nearing our safety! **": {
+    "translation": "**我们已经接近安全区了,防守所有通道!**"
+  },
+  "** RESIST! It won't take much longer to open this door! **": {
+    "translation": "**防守,这扇门快要打开了!**"
+  },
+  "** Keep it up! A few seconds left! **": {
+    "translation": "**快到了!坚持住!**"
+  },
+  "** Get moving! We might need to roam the abandoned basements to reach the main warehouse... **": {
+    "translation": "**走了!我们需要从废弃的地下室进入主仓库...**"
+  },
+  "** This area seems familiar... **": {
+    "translation": "**这个区域似乎很熟悉...**"
+  },
+  "** We're close to the weaponry warehouse we saw during the ascension! **": {
+    "translation": "**貌似武器库就在前方!**"
+  },
+  "** Wait for the team to regroup and hold - we will move on then! **": {
+    "translation": "**守住-我们将继续前进!**"
+  },
+  "** We should be able to open these doors... Cover! **": {
+    "translation": "**我们应该能够打开这些门...掩护!**"
+  },
+  "** Just a tiny bit more! Keep defending! **": {
+    "translation": "**再守一小会!**"
+  },
+  "** FALL BACK! THIS IS READY TO GO! OPENING SOON! **": {
+    "translation": "**撤退!准备走了!门很快打开!**"
+  },
+  "** OAGH! IT STINKS IN HERE! HOLD YOUR BREATH AND RESIST! **": {
+    "translation": "**咦!这里很臭!屏住呼吸,守住!**"
+  },
+  "** The stench is unbearable! We're opening the door as fast as we can - HOLD THEM! **": {
+    "translation": "**这里的气味简直无法忍受,我们需要以最快的速度去解锁这扇门!**"
+  },
+  "** Get close! The door is about to open! **": {
+    "translation": "**后退!门即将打开!**"
+  },
+  "** Hold them off! Keep them up the stairs! **": {
+    "translation": "**拖住他们!让僵尸爬楼梯!**"
+  },
+  "** This door should lead to one of the abandoned maintenance hallways! HOLD! **": {
+    "translation": "**这扇门应该通向一个废弃的维修走廊!撑住!**"
+  },
+  "** DEFEND FOR THE LAST BIT! IT'S ABOUT TO OPEN! **": {
+    "translation": "**捍卫最后一个点!后方区域即将开放!**"
+  },
+  "** This door seems to be further locked than the previous ones... **": {
+    "translation": "**这扇门似乎比之前的更复杂...**"
+  },
+  "** RESIST! It might take a while! Cover all entrances! **": {
+    "translation": "**坚持!门可能需要一段时间打开!守住所有入口!**"
+  },
+  "** KEEP IT UP! We're making progress! **": {
+    "translation": "**防守,前方区域即将开放!**"
+  },
+  "** NEVER GIVE UP! TRUST YOUR INSTINCTS! **": {
+    "translation": "**永不放弃!相信你的直觉!**"
+  },
+  "** GO! GO! GO! The door is open! **": {
+    "translation": "**走!门开了!**"
+  },
+  "** We're nearing to the extraction point! One last effort! HOLD! **": {
+    "translation": "**我们快到撤离点了!撑住!**"
+  },
+  "** KEEP RESISTING! IT'S ABOUT TO OPEN! **": {
+    "translation": "**继续守住!前方区域即将开放!**"
+  },
+  "** This is the end of the line! RESIST! **": {
+    "translation": "**这就是终点了!守住!**"
+  },
+  "** Our rescue chopper is approaching! We'll need to survive until it comes! **": {
+    "translation": "**救援直升机即将抵达,在这之前,活下去!**"
+  },
+  "** We must make our way towards the extraction point. **": {
+    "translation": "**我们必须向撤离点前进.**"
+  },
+  "** Shall we decide our fate at last... **": {
+    "translation": "**我们最终会决定我们的命运吗...**"
+  },
+  "** Chapter III: The womb **": {
+    "translation": "**第三章:核心 **"
+  },
+  "** ZOMBIES DETECTED - INVALID VICTORY! **": {
+    "translation": "**检测到僵尸-通关无效!**"
+  },
+  "** CHAPTER 1 COMPLETED - UNLOCKING CHAPTER 2 **": {
+    "translation": "**第一章完成-解锁第二章**"
+  },
+  "** CHAPTER 2 COMPLETED - UNLOCKING CHAPTER 3 **": {
+    "translation": "**第二章完成-解锁第三章**"
+  },
+  "** CHAPTER 3 COMPLETED - THE END **": {
+    "translation": "**第三章完成-结束**"
+  },
+  "** THE MAP WILL NOW START AGAIN FROM CHAPTER 1 **": {
+    "translation": "**地图现在将从第一章重新开始**"
+  },
+  "** Nuke inbound - Follow the rescue helicopter for it will take you to safety! **": {
+    "translation": "**核弹入境-跟着救援直升机,它将带您到安全的地方!**"
+  },
+  "** HOP IN! We gotta get out of this before the nuke arrives! **": {
+    "translation": "**跳进去!我们必须在核爆到来之前离开这里!**"
+  },
+  "** C'MON IN! We need to go before we become roasted chicken! **": {
+    "translation": "**在我们变成烤鸡之前,赶紧离开这个鬼地方!**"
+  },
+  "** LOSING ALTITUDE! KEEP THEM OUT! **": {
+    "translation": "**守住这里!不要让他们出去!**"
+  },
+  "** An admin has toggled Blizzard Mode **": {
+    "translation": "**管理员已切换至暴雪模式**"
+  }
+}
